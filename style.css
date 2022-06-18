@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(167, 231, 247);
+}
+.container {
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px 30px;
+	/* align-items: center; */
+	/* border: 2px solid black; */
+}
+.container .title {
+	font-size: 42px;
+	font-weight: 500;
+	position: relative;
+	color: rgb(158, 64, 246);
+}
+.container .title::before {
+	left: 0;
+	bottom: 0;
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	background: #9b59b6;
+}
+.container form .user-details {
+	display: flex;
+	flex-wrap: wrap;
+}
+form .user-details .inputbox {
+	width: 300px;
+}
+form .user-details .inputbox1 {
+	width: 616px;
+}
+form .user-details .inputbox2 {
+	width: 616px;
+}
+.user-details .inputbox input {
+	text-decoration: none;
+	height: 60px;
+	width: 95%;
+	margin: 8px;
+	background: #f1dcf9;
+	font-size: 21px;
+	padding-left: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	color: #030662;
+}
+.user-details .inputbox1 input {
+	text-decoration: none;
+	height: 60px;
+	width: 95%;
+	margin: 8px;
+	background: #f1dcf9;
+	font-size: 21px;
+	padding-left: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	color: #030662;
+}
+.user-details .inputbox2 input {
+	text-decoration: none;
+	height: 120px;
+	width: 95%;
+	margin: 8px;
+	background: #f1dcf9;
+	font-size: 21px;
+	padding-left: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	color: #030662;
+	text-overflow: ellipsis;
+}
+#box {
+	/* display: flex; */
+	border: none;
+	padding: 7px 35px;
+	cursor: pointer;
+	outline: none;
+	background: #45f3ff;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* 
+    margin: none center; */
+    margin-left: 238px;
+    margin-top: 10px;
+
+
+	align-self: center;
+
+	/* position: absolute; */
+	/* bottom: 5px; */
+}
